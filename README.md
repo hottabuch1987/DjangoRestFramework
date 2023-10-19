@@ -13,7 +13,6 @@
 - unit тесты
 
 ### Запуск на локальной машине
-- создать файл .env в директории service с данными базы postgres
 - python3 -m venv venv
 - source venv/bin/activate
 - pip install -r requirements.txt
