@@ -1,0 +1,19 @@
+python manage.py test .
+
+python manage.py test clients.tests.test_api_user
+python manage.py test clients.tests.test_serializers_user
+
+python manage.py test services.tests.test_api_services
+python manage.py test services.tests.test_serializer_services
+
+python manage.py test services.tests.test_api_services.SubscriptionApiTest
+
+
+
+
+
+coverage run --source='.' manage.py test .
+coverage report
+coverage html
+open index.html
+
